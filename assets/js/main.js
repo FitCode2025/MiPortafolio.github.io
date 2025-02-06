@@ -243,3 +243,17 @@ function calcularEdad(fechaNacimiento) {
 
 const fechaNacimiento = "1994-01-19";
 document.getElementById("edad").textContent = calcularEdad(fechaNacimiento);
+
+// Dark Mode Toggle
+const themeToggle = document.getElementById('theme-toggle');
+themeToggle.addEventListener('click', () => {
+  document.body.classList.toggle('dark-theme');
+});
+
+// Mobile Menu Toggle
+const navToggle = document.querySelector('.header-toggle');
+const navMenu = document.querySelector('.navmenu');
+
+navToggle.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
