@@ -1,16 +1,4 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
@@ -616,6 +604,8 @@ section,
   .hero p {
     font-size: 20px;
   }
+
+
 }
 
 /*--------------------------------------------------------------
@@ -1267,6 +1257,39 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*
+/* Tech Stack Tags */
+.tech-stack {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.tech-stack span {
+  background: #2d3436;
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-family: 'Fira Code', monospace;
+}
+
+/* Project Links */
+.demo-link, .code-link {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem 0.5rem 0 0;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.demo-link {
+  background: #00adb5;
+  color: white;
+}
+
+.code-link {
+  background: #2d3436;
+  color: white;
+  border: 1px solid #00adb5;
+}
